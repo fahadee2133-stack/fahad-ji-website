@@ -1,0 +1,73 @@
+ul{
+    display: flex;
+    list-style: none;
+    background-color: navy;
+    border-radius: 20px;
+    justify-content: space-evenly
+}
+
+li:hover{
+    background-color: burlywood;
+    border-radius: 30px;
+    font-size: x-large;
+    transition: 500ms;
+}
+
+li{
+    padding: 20px;
+    color: rgb(254, 255, 240);
+    margin-right: 30px;
+    font-size: larger;
+}
+
+a{
+    color: rgb(254, 255, 240) !important;
+}
+
+.hero{
+    background-color: navy;
+    height: 400px;
+    color: white;
+}
+
+#heroh1{
+    margin-left: 20px;
+}
+
+#herop{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.heroimg{
+    width: 250px;
+    margin-left: 90px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 1500px;
+    height: 750px;
+}
+
+img{
+    width: 250px;
+}
+
+.box{
+    width: 280px;
+    height: 550px ;
+    background-color: navy;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    color: navy;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+}
